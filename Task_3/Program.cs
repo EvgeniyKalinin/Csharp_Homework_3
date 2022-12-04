@@ -1,5 +1,12 @@
 ﻿Console.WriteLine("Введите число.");
+try
+{
 int num = Convert.ToInt32(Console.ReadLine());
+}
+catch
+{
+    Console.WriteLine("Ошибка ввода! Введите целое число.");
+}
 int st = 3;
 int Exponentiation (int save, int degree)
 {
