@@ -1,6 +1,7 @@
-﻿Console.WriteLine("Введите число.");
-try
+﻿try
 {
+Console.WriteLine("Введите число.");
+
     int num = Convert.ToInt32(Console.ReadLine());
 
     int st = 3;
