@@ -1,5 +1,12 @@
 ﻿Console.WriteLine("Введите число.");
-int num = Convert.ToInt32(Console.ReadLine());
+try
+{
+    int num = Convert.ToInt32(Console.ReadLine());
+}
+catch
+{
+    Console.WriteLine("Ошибка ввода! Введите целое число.");
+}
 int save = num;
 int rev = 0;
 if (num < 99)
